@@ -1,10 +1,10 @@
 package patterns.flyweight;
 
-import java.util.Hashtable;
+import java.util.HashMap;
 
 public class CDArtistFactory {
 
-	private Hashtable<String, CDArtist> cdartists = new Hashtable<String, CDArtist>();
+	private HashMap<String, CDArtist> cdartists = new HashMap<>();
 	
 	public CDArtist getCDArtist(String key) {
 		CDArtist cdartist = (CDArtist)cdartists.get(key);
