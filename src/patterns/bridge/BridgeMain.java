@@ -8,7 +8,6 @@ public class BridgeMain {
 		CoffeeBigCup bigcup;
 		CoffeeSmallCup smallcup;
 
-		// ��ţ�̿���
 		maker = new CoffeeMakerAddMilk();
 		bigcup = new CoffeeBigCup(maker);
 		smallcup = new CoffeeSmallCup(maker);
@@ -16,7 +15,6 @@ public class BridgeMain {
 		smallcup.getCoffee();
 		System.out.println("=====================================");
 
-		// ���ǿ���
 		maker = new CoffeeMakerAddSugar();
 		bigcup = new CoffeeBigCup(maker);
 		smallcup = new CoffeeSmallCup(maker);
@@ -24,7 +22,6 @@ public class BridgeMain {
 		smallcup.getCoffee();
 		System.out.println("=====================================");
 
-		// ʲô������
 		maker = new CoffeeMakerNoAdd();
 		bigcup = new CoffeeBigCup(maker);
 		smallcup = new CoffeeSmallCup(maker);

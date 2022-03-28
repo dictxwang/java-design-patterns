@@ -16,7 +16,7 @@ public class ForumFactoryProxy extends ForumFactory {
 			DetailForum forum = (DetailForum)factory.createForum(name, description);
 			return new ForumProxy(forum, permission);
 		} else {
-			System.out.println("没有系统管理员权限～");
+			System.out.println("permission not allow");
 			return null;
 		}
 	}

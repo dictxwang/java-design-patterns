@@ -27,7 +27,7 @@ public class SelectSort implements ISort {
 				input[swapindex] = swap;
 			}
 			long endtime = System.currentTimeMillis();
-			System.out.println(this.sortname + " sorted end, duration time is " + (endtime - starttime) + "milliseconds.");
+			System.out.println(this.sortname + " sorted end, duration time is " + (endtime - starttime) + " milliseconds.");
 		}
 	}
 }

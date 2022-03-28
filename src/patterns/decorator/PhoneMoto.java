@@ -8,6 +8,6 @@ public class PhoneMoto extends PhoneDecorator {
 
 	public void showCallRing() {
 		super.showCallRing();
-		System.out.println("Moto phone ring: MOTO,MOTO,MOTO,бл,бл");
+		System.out.println("Moto phone ring: MOTO,MOTO,MOTO");
 	}
 }

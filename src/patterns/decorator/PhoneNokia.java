@@ -8,6 +8,6 @@ public class PhoneNokia extends PhoneDecorator {
 	
 	public void showCallRing() {
 		super.showCallRing();
-		System.out.println("Nokia phone ring: Nokia, Nokia,бл,бл");
+		System.out.println("Nokia phone ring: Nokia, Nokia");
 	}
 }

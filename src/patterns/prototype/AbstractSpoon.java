@@ -10,6 +10,7 @@ public abstract class AbstractSpoon {
 		try {
 			object = super.clone();
 		} catch (Exception exp) {
+			exp.printStackTrace();
 			object = null;
 		}
 		return object;

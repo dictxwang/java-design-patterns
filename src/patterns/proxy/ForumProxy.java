@@ -13,9 +13,9 @@ public class ForumProxy implements IForum {
 	public void changeForumName(String name) {
 		if (permission.isSysOrForumAdmin()) {
 			this.forum.changeForumName(name);
-			System.out.println("论坛名称修改完毕：" + name);
+			System.out.println("change the forum name to " + name);
 		} else {
-			System.out.println("没有系统或论坛管理权限～");
+			System.out.println("permission not allow");
 		}
 	}
 
