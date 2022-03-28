@@ -2,9 +2,9 @@ package patterns.builder;
 
 public class MessageProduct implements IProduct {
 
-	MessageNormal normalMessage = new MessageNormal("");
-	MessageError errorMessage = new MessageError("");
-	MessageWarning warningMessage = new MessageWarning("");
+	MessageNormal normalMessage = null;
+	MessageError errorMessage = null;
+	MessageWarning warningMessage = null;
 	
 	public void showAllMsg() {
 		normalMessage.showMsgInfo();
